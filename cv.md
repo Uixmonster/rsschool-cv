@@ -71,8 +71,8 @@ if __name__ == "__main__":
 
 ## **Experience**
 
-**Course:** Introduce to Python Programming & Django Backend Web Development.
-**School:** *Teb Education*.
+- **Course:** Introduce to Python Programming & Django Backend Web Development.
+- **School:** *Teb Education Krakow*.
 
 ### HealthTracker – Django Web App
 - Final project completed as part of a programming course in *Teb Education School*.
@@ -144,9 +144,9 @@ class WeightEntryForm(forms.ModelForm):
 
 ## **Education**
 
-**School:** *Teb Education*.
-**Course:** Introduce to Python Programming & Django Backend Web Development with CISCO - (2023 - 2024).
-**Location:** Poland, Krakow city.
+- **School:** *Teb Education*.
+- **Course:** Introduce to Python Programming & Django Backend Web Development with CISCO - (2023 - 2024).
+- **Location:** Poland, Krakow city.
 Studied programming fundamentals with Python, version control with Git, and web technologies HTML/CSS/Bootstrap.
 Completed hands-on projects including a full-stack Django web app HealthTracker.
 
@@ -161,21 +161,21 @@ Completed hands-on projects including a full-stack Django web app HealthTracker.
 
 ## **Certificates:**
 
-### Polish Language Certificate – *B1 Level*.
-### Certificate of Completion – *Python Program at TEB Edukacja with CISCO*.
+- ### Polish Language Certificate – *B1 Level*.
+- ### Certificate of Completion – *Python Program at TEB Edukacja with CISCO*.
 
 
 ## **Languages:**
 
-**English – A2 (in progress)**
+#### **English – A2 (in progress)**
 - Actively improving spoken and written English through self-study and daily practice.
 
-**Russian - C2**
+#### **Russian - C2**
 - Native language.
   
-**Ukranian - C2**
+#### **Ukranian - C2**
 - Native language.
   
-**Polish - B1**
+#### **Polish - B1**
 - I use it in my work and everyday life.
 
