@@ -147,6 +147,7 @@ class WeightEntryForm(forms.ModelForm):
 - **School:** *Teb Education*.
 - **Course:** Introduce to Python Programming & Django Backend Web Development with CISCO - (2023 - 2024).
 - **Location:** Poland, Krakow city.
+
 Studied programming fundamentals with Python, version control with Git, and web technologies HTML/CSS/Bootstrap.
 Completed hands-on projects including a full-stack Django web app HealthTracker.
 
