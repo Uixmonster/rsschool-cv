@@ -1,3 +1,5 @@
+<img width="460" height="460" alt="Andrii Maksym" src="https://github.com/user-attachments/assets/20808a75-a88a-4116-92ce-647c10a37b97" />
+
 # **Andrew Maxim**
 
 ---
@@ -148,8 +150,8 @@ class WeightEntryForm(forms.ModelForm):
 - **Course:** Introduce to Python Programming & Django Backend Web Development with CISCO - (2023 - 2024).
 - **Location:** Poland, Krakow city.
 
-Studied programming fundamentals with Python, version control with Git, and web technologies HTML/CSS/Bootstrap.
-Completed hands-on projects including a full-stack Django web app HealthTracker.
+- Studied programming fundamentals with Python, version control with Git, and web technologies HTML/CSS/Bootstrap.
+- Completed hands-on projects including a full-stack Django web app HealthTracker.
 
 ### **Also studied in the course:**
 
