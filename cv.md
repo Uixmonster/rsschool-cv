@@ -19,23 +19,24 @@ I want to become a *Junior Frontend Developer* and ready to solve complex proble
 ## **Skills**
 
 #### Programming languages
-|language         | level |
-- **Python**      |  [*Intermediate*]
-- **HTML**        |  [*Basic*]
-- **CSS**         |  [*Basic*]
-- **JavaScript**  |  [*Basic*]
+|Language | Level |
+|---|---|
+|**Python**  |*Intermediate*|
+|**HTML**    | *Basic*|
+|**CSS**      | *Basic*|
+|**JavaScript** | *Basic*|
 
 #### **Frameworks**
 - *Django*        |  [*Basic*]
 - *Flask*         |  [*Basic*]
 
 #### *Other skills*
-- **Git**           
-- **PyCharm**
-- **Visual Studio Code**
-- **GitHub**
-- **Terminal**
-- **Linux**
+- **Git**  |  [*Basic*]         
+- **PyCharm** |  [*Basic*]
+- **Visual Studio Code** |  [*Basic*]
+- **GitHub** |  [*Basic*]
+- **Terminal** |  [*Basic*]
+- **Linux** |  [*Basic*]
 
 ---
 
