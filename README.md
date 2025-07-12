@@ -1,1 +1,1 @@
-[Uixmonster](https://github.com/Uixmonster/rsschool-cv/)
+[Uixmonster](https://Uixmonster.github.io/rsschool-cv/)
