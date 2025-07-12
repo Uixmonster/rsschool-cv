@@ -5,7 +5,7 @@
 ### **Email:** fake_email@gmail.com
 ### **Phone:** +44 777 777 111
 ### **GitHub:** <https://github.com/Uixmonster>
-### **Discord:** <https://discord.com/Uixmonster>
+### **Discord:** <https://discord.com/andriimaksim>
 
 ---
 
