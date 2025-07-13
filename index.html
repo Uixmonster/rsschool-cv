@@ -86,7 +86,7 @@
                         <pre>
                             <code>
                                 class Person:
-                                    def __init__(self, name, surname, age, country) -> None:
+                                    def __init__(self, name, surname, age, country):
                                         self.name = name
                                         self.surname = surname
                                         self.age = age
@@ -109,6 +109,102 @@
                         </pre>
                     </div>
                </section>
+               <!-- Experience -->
+                <section class="section" id="experience">
+                    <h2 class="section__experience__title">Experience</h2>
+                    <div class="experience__info">
+                        <p class="experience_info__text">
+                            <b>Course:</b> Introduce to Python Programming & Django Backend Web Development.
+                        </p>
+                        <p class="experience_info__text">
+                            <b>School:</b> Teb Education Krakow.
+                        </p>
+                        <h4 class="experience__h4__title">
+                            HealthTracker - Django Web App
+                        </h4>
+                        <ul class="health__tracker__list__info">
+                            <li class="health__tracker__list__info__items">
+                                Final project completed as part of a programming course in Teb Education School.
+                            </li>
+                            <li class="health__tracker__list__info__items">
+                                Implemented Django models, views, templates, CRUD.
+                            </li>
+                            <li class="health__tracker__list__info__items">
+                                Built dynamic charts with Chart.js to visualize activity statistics.
+                            </li>
+                            <li class="health__tracker__list__info__items">
+                                Designed interface using HTML, CSS and Bootstrap.
+                            </li>
+                        </ul>
+                            <p>
+                                <b>Used stack:</b> Python, Django, Bootstrap, SQLite, Chart.js.
+                            </p>
+                            <p>
+                                <b>Features:</b> user registration, activity logging, data visualization with Chart.js, Django Admin.
+                            </p>
+                    </div>
+                    <div class="demo__picture">
+                        <h4 class="demo__picture__title">Project demo pictures:</h4>
+                        <img src="https://github.com/user-attachments/assets/24473334-5bd5-4cb3-963a-5b4acae5c7af" alt="demo_picture" class="demo_picture_item">
+                    </div>
+                    <div class="project__code__example">
+                        <h4 class="project__code__example__title">Project code example:</h4>
+                        <div class="project_code__examples__block">
+                            <pre>
+                                <code>
+                                    from django import forms
+                                    from django.contrib.auth.models import User
+                                    from .models import Meal, Activity, WeightEntry
+                                    from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+
+
+                                    class CustomUserCreationForm(UserCreationForm):
+                                        class Meta:
+                                            model = User
+                                            fields = ['username', 'password1', 'password2']
+
+                                        def __init__(self, *args, **kwargs):
+                                            super(CustomUserCreationForm, self).__init__(*args, **kwargs)
+                                            for field_name, field in self.fields.items():
+                                                field.widget.attrs['class'] = 'form-control'
+
+
+                                    class MealForm(forms.ModelForm):
+                                        class Meta:
+                                            model = Meal
+                                            fields = ['date', 'meal_type', 'calories', 'proteins', 'fats']
+
+                                        def __init__(self, *args, **kwargs):
+                                            super(MealForm, self).__init__(*args, **kwargs)
+                                            for field_name, field in self.fields.items():
+                                                field.widget.attrs['class'] = 'form-control'
+
+
+                                    class ActivityForm(forms.ModelForm):
+                                        class Meta:
+                                            model = Activity
+                                            fields = ['date', 'activity_type', 'duration', 'calories_burned']
+
+                                        def __init__(self, *args, **kwargs):
+                                            super(ActivityForm, self).__init__(*args, **kwargs)
+                                            for field_name, field in self.fields.items():
+                                                field.widget.attrs['class'] = 'form-control'
+
+
+                                    class WeightEntryForm(forms.ModelForm):
+                                        class Meta:
+                                            model = WeightEntry
+                                            fields = ['date', 'weight']
+
+                                        def __init__(self, *args, **kwargs):
+                                            super(WeightEntryForm, self).__init__(*args, **kwargs)
+                                            for field_name, field in self.fields.items():
+                                                field.widget.attrs['class'] = 'form-control'
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
+                </section>
         </div>
     </main>
 
