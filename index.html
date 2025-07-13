@@ -15,9 +15,9 @@
                 <h1 class="profile__name">
                     Andrew Maxim
                 </h1>
-                <h2 class="profile__profession">
+                <h3 class="profile__profession">
                     Junior Frontend Developer
-                </h2>
+                </h3>
                 <img src="images/content/avatar.jfif" alt="Andrew Maxim" class="profile__avatar">
             </section>
             <!-- Contacts -->
@@ -37,6 +37,13 @@
                     </li>
                 </ul>
             </section>
+        </div>
+    </header>
+
+
+    <!-- Main section -->
+    <main class="main">
+        <div class="container">
             <!-- Section About me -->
              <section class="section" id="summary">
                 <h2 class="summary__title">About me</h2>
@@ -47,14 +54,61 @@
                     I want to become a Junior Frontend Developer and ready to solve complex problems. I am studying computer sciences by myself using courses from leading universities on Coursera and also interested in sound engineering.
                 </p>
              </section>
-        </div>
-    </header>
+             <!-- Skills -->
+              <section class="section" id="skills">
+                <h2 class="skills__title">Skills</h2>
+                <h3 class="programming__languages__title">Programming languages</h3>
+                <ol class="program__lang_list">
+                    <li class="program__list__items">Python</li>
+                    <li class="program__list__items">HTML</li>
+                    <li class="program__list__items">CSS</li>
+                    <li class="program__list__items">JavaScript</li>
+                </ol>
+                <h3 class="frameworks__title">Frameworks</h3>
+                    <ol class="frameworks__list">
+                        <li class="frameworks__list__items">Django</li>
+                        <li class="frameworks__list__items">Flask</li>
+                    </ol>
+                <h3 class="other__skills__title">Other skills</h3>
+                    <ol class="other__skills__list">
+                        <li class="other__skills__list-items">Git</li>
+                        <li class="other__skills__list-items">PyCharm</li>
+                        <li class="other__skills__list-items">Visual Studio Code</li>
+                        <li class="other__skills__list-items">GitHub</li>
+                        <li class="other__skills__list-items">Terminal</li>
+                        <li class="other__skills__list-items">Linux</li>
+                    </ol>
+              </section>
+              <!-- Code examples -->
+               <section class="section" id="code_examples">
+                <h2 class="code__examples__title">Code examples</h2>
+                    <div class="code__examples__block">
+                        <pre>
+                            <code>
+                                class Person:
+                                    def __init__(self, name, surname, age, country) -> None:
+                                        self.name = name
+                                        self.surname = surname
+                                        self.age = age
+                                        self.country = country
+
+                                        self.adult_ages = {"PL": 18, "USA": 21}
+
+                                    def is_adult(self):
+                                        if self.adult_ages[self.country]:
+                                            return True
+
+                                        return False
 
 
-    <!-- Main section -->
-    <main class="main">
-        <div class="container">
-
+                                if __name__ == "__main__":
+                                    person = Person("Andrew", "Maksim", 16, "PL")
+                                    print(person.name)
+                                    print(person.is_adult())
+                            </code>
+                        </pre>
+                    </div>
+               </section>
         </div>
     </main>
 
