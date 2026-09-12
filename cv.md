@@ -48,6 +48,8 @@ I am a creative and curious person who loves building things, writing music, and
 * Set up, adjusted, and maintained CNC machines to ensure stable production processes and high-quality output.
 * Read technical drawings and work instructions, selected tools, and calibrated equipment for precise machining operations.
 * Monitored machine performance, solved technical issues on the floor, and supported efficient workflow in a manufacturing environment.
+* Trained new employees in CNC machine setup, operation, and safe working procedures.
+* Supervised the production process and supported the team in maintaining stable workflow and quality standards.
 
 ### Process Operator / Preparation Production
 **B/S/H** | *2025-Present*
