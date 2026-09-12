@@ -1,4 +1,4 @@
-# Andrew Maxim - **Fullstack Developer**
+# Andrew Maxim - **Full-stack Developer**
 
 
 ## 📞 Contact Information
@@ -19,7 +19,7 @@ I am a creative and curious person who loves building things, writing music, and
 * **Methodologies:** Kanban
 * **Databases:** MariaDB, SQLite
 
-## 🚀 Work Experience & Learning Projects
+## 📚 Learning Projects
 
 ### Django Application
 **TEB Edukacja** | *2023-2024*
@@ -27,21 +27,13 @@ I am a creative and curious person who loves building things, writing music, and
 * Used JavaScript to create animated widgets and improve the application's user interface.
 * Implemented user account creation, authentication, and an administration panel for managing application data.
 
-### Assistant to the Head of Logistics and Order Dispatch
-**Nasha Fishka** | *2014-2015*
-* Organized and coordinated logistics operations, managed shipment planning, and ensured timely order fulfillment.
-* Assisted in monitoring delivery processes, tracking orders, and maintaining communication with customers and suppliers.
-* Supported day-to-day operational tasks related to stock control, dispatch coordination, and workflow efficiency.
+## 🚀 Work Experience
 
-### Sales Manager
-**Malmo Mobile Parts** | *2015-2017*
-* Managed customer relationships, supported sales processes, and contributed to revenue growth through product consultation and service quality.
-* Coordinated with clients, processed orders, and helped maintain strong operational efficiency in a sales environment.
-
-### Logistics
-**Faurecia** | *2017-2018*
-* Organized and coordinated logistics operations, managed shipment planning.
-* Supported day-to-day operational tasks related to stock control, dispatch coordination, and workflow efficiency.
+### Process Operator / Preparation Production
+**B/S/H** | *2025-Present*
+* Work on preparation processes on large industrial machines for the production of refrigerator panels.
+* Prepare and adjust equipment, monitor production flow, and ensure process stability and quality standards.
+* Support efficient operation of manufacturing lines and maintain smooth workflow in a high-volume production environment.
 
 ### Senior CNC Machine Setter
 **TP Reflex** | *2019-2025*
@@ -51,11 +43,21 @@ I am a creative and curious person who loves building things, writing music, and
 * Trained new employees in CNC machine setup, operation, and safe working procedures.
 * Supervised the production process and supported the team in maintaining stable workflow and quality standards.
 
-### Process Operator / Preparation Production
-**B/S/H** | *2025-Present*
-* Work on preparation processes on large industrial machines for the production of refrigerator panels.
-* Prepare and adjust equipment, monitor production flow, and ensure process stability and quality standards.
-* Support efficient operation of manufacturing lines and maintain smooth workflow in a high-volume production environment.
+### Logistics
+**Faurecia** | *2017-2018*
+* Organized and coordinated logistics operations, managed shipment planning.
+* Supported day-to-day operational tasks related to stock control, dispatch coordination, and workflow efficiency.
+
+### Sales Manager
+**Malmo Mobile Parts** | *2015-2017*
+* Managed customer relationships, supported sales processes, and contributed to revenue growth through product consultation and service quality.
+* Coordinated with clients, processed orders, and helped maintain strong operational efficiency in a sales environment.
+
+### Assistant to the Head of Logistics and Order Dispatch
+**Nasha Fishka** | *2014-2015*
+* Organized and coordinated logistics operations, managed shipment planning, and ensured timely order fulfillment.
+* Assisted in monitoring delivery processes, tracking orders, and maintaining communication with customers and suppliers.
+* Supported day-to-day operational tasks related to stock control, dispatch coordination, and workflow efficiency.
 
 
 ## 💻 Projects
@@ -78,8 +80,6 @@ function capitalizeWord(word) {
 ---
 
 ```python
-# if __name__ == '__main__': --> 'note for me'
-
 class Person:
     def __init__(self, name, surname, age, country) -> None:
         self.name = name
