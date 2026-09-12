@@ -3,41 +3,66 @@
 
 ---
 
-## 📞 Контактная информация
-* **Телефон:** +7 (XXX) XXX-XX-XX
+## 📞 Contact Information
+* **Phone:** +1 (XXX) XXX-XX-XX
 * **Email:** andriimaksim@gmail.com
-* **GitHub:** [://github.com](https://github.com/Uixmonster)
+* **GitHub:** [github.com/Uixmonster](https://github.com/Uixmonster)
 
 ---
 
-## 🎯 О себе
-An aspiring developer with a strong theoretical foundation and a keen desire to grow through commercial projects. I quickly master new technologies, work well in a team, and see tasks through to completion. My top priority right now is to gain a deep understanding of modern development practices. I am looking for a position where I can apply my skills and learn from experienced colleagues.
+## 🎯 About Me
+I am a creative and curious person who loves building things, writing music, and developing software. I enjoy solving problems, learning new technologies, and taking on tasks that may seem difficult at first glance. I am always ready to try, adapt, and find a way to make things work. In my free time, I run a YouTube channel where I share reels about web design and creative digital work. I am looking for opportunities where I can apply my skills, keep growing, and contribute to meaningful projects.
 
 ---
 
-## 🛠 Навыки
-* **Языки программирования:** JavaScript, TypeScript, Python
-* **Фреймворки и библиотеки:** React, Node.js, Express, , Django, Flask
-* **Системы контроля версий:** Git, GitHub
-* **Инструменты разработки:** Webpack, Vite, npm/yarn, VS Code, PIP, PyCharm
-* **Методологии:** Kanban
-* **Базы данных:** PostgreSQL, MySQL
+## 🛠 Skills
+* **Programming Languages:** JavaScript, TypeScript, Python, SQL, HTML, CSS
+* **Frameworks and Libraries:** Django, Flask
+* **Version Control:** Git, GitHub
+* **Development Tools:** VS Code, pip, PyCharm
+* **Methodologies:** Kanban
+* **Databases:** PostgreSQL, MySQL
 
 ---
 
-## 🚀 Опыт работы & Учебные проекты
+## 🚀 Work Experience & Learning Projects
 
-### Health tracker App | Fullstack 
-**TEB Education**
-* **Описание:**  Веб-приложение для мониторинга физической активности.
-* **Использованные технологии:** Python, Django, SQLite
-* **Стек и результаты:** Разработал интерфейс, написал функционал и создал виджеты с активностями, админ панель, добавил регистрацию и создание учетной записи для пользователя.
+### Health Tracker App
+**TEB Education** | *Fullstack*
+* Description: A web application for tracking physical activity and monitoring user progress.
+* Technologies used: Python, Django, SQLite, JS, jinja2, HTML, CSS.
+* Stack and results: Built the user interface, implemented core application logic, and created activity widgets, an admin dashboard, and a user registration flow to support account management and personalized tracking.
 
+### Assistant to the Head of Logistics and Order Dispatch
+**Nasha Fishka** | *2014-2015*
+* Organized and coordinated logistics operations, managed shipment planning, and ensured timely order fulfillment.
+* Assisted in monitoring delivery processes, tracking orders, and maintaining communication with customers and suppliers.
+* Supported day-to-day operational tasks related to stock control, dispatch coordination, and workflow efficiency.
 
+### Sales Manager
+**Malmo Mobile Parts** | *2015-2017*
+* Managed customer relationships, supported sales processes, and contributed to revenue growth through product consultation and service quality.
+* Coordinated with clients, processed orders, and helped maintain strong operational efficiency in a sales environment.
+
+### Logistics
+**Faurecia** | *2017-2018*
+* Organized and coordinated logistics operations, managed shipment planning.
+* Supported day-to-day operational tasks related to stock control, dispatch coordination, and workflow efficiency.
+
+### Senior CNC Machine Setter
+**TP Reflex** | *2019-2025*
+* Set up, adjusted, and maintained CNC machines to ensure stable production processes and high-quality output.
+* Read technical drawings and work instructions, selected tools, and calibrated equipment for precise machining operations.
+* Monitored machine performance, solved technical issues on the floor, and supported efficient workflow in a manufacturing environment.
+
+### Process Operator / Preparation Production
+**B/S/H** | *2025-Present*
+* Work on preparation processes on large industrial machines for the production of refrigerator panels.
+* Prepare and adjust equipment, monitor production flow, and ensure process stability and quality standards.
+* Support efficient operation of manufacturing lines and maintain smooth workflow in a high-volume production environment.
 ---
 
-## 💻 Примеры кода
-
+## 💻 Code Examples
 ```python
 # if __name__ == '__main__': --> 'note for me'
 
@@ -65,22 +90,23 @@ if __name__ == "__main__":
 
 ---
 
-## 🎓 Образование
+## 🎓 Education
+* **TEB Edukacja** — Python Programming course with Cisco Networking | *2023-2024*
+* **KhNAU** — Agricultural Engineering / Engineering-oriented education | *2012-2014*
+* **Kharkiv Polytechnic Institute (HPI)** — Computer Science and Computer Architecture course | *2008-2010*
 
-* **ХНАУ** | *2013-2015*
-* **TEB Edukacja** | *2023-2024*
-
-
-### Пройденные курсы и сертификаты
-* **RS-SCHOOL** | *Stage-0 2026*
-* **CS50** — [EDX]() | *{2025}*
+### Completed Courses and Certificates
+* **RS School** | *Stage-0 2026*
+* **CS50** — [EDX](https://www.edx.org/) | *2025*
+* **SoloLearn** — HTML Fundamentals | *2024*
+* **SoloLearn** — CSS Fundamentals | *2024*
 
 ---
 
-## 🌐 Языки
-* **Уровень:** ENGLISH - B1
-* **Уровень:** POLISH - B2 
-* **Уровень:** UKRAINIAN - C2
-* **Уровень:** RUSSIAN - C2
+## 🌐 Languages
+* **English:** B1
+* **Polish:** B2
+* **Ukrainian:** C2
+* **Russian:** C2
 
-* **Языковая практика:** Читаю техническую документацию, пишу комментарии к коду и веду переписку. Есть опыт участия в англоязычных и польскоязычных вебинарах / общения в команде на работе.
+* **Language Practice:** I read technical documentation, write code comments, and communicate by email and chat. I also have experience participating in English- and Polish-language webinars and collaborating with teammates in a work environment.
