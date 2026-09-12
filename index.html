@@ -3,9 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="flex justify-around container m-auto">
+    <nav class="menu flex justify-center pt-6">
+      <ul class="menu__list flex gap-5 p-4 rounded-md shadow-md">
+        <li class="menu__list-item "><a class="border pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-amber-300" href="#">Who_I'm</a></li>
+      <div class="border p-1 bg-blue-400 rounded-md"></div>
+        <li class="menu__list-item"><a class="border pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-blue-400" href="#">Projects</a></li>
+      <div class="border p-1 bg-green-400 rounded-md"></div>
+      <div class="content-center rounded-md text-center font-bold font-mono text-1xl drop-shadow-md">UIXMONSTER.DEV</div>
+      <div class="border p-1 bg-green-400 rounded-md"></div>
+        <li class="menu__list-item"><a class="border pr-2 pl-2 pt-1 pb-1 rounded-md hover:bg-emerald-400" href="#">Languages</a></li>
+      <div class="border p-1 bg-blue-400 rounded-md"></div>
+        <li class="menu__list-item"><a class="border pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-indigo-400" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container m-auto">
+    <h1 class="antialiased text-5xl font-bold font-mono">Andrew Maxim</h1>
+    <p class="antialiased text-xl font-bold font-mono">Full-stack Developer</p>
+  </main>
 </body>
 </html>
