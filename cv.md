@@ -4,6 +4,7 @@
 ## 📞 Contact Information
 * **Phone:** +1 (XXX) XXX-XX-XX
 * **Email:** andriimaksim@gmail.com
+* **Discord** [uixmonster]()
 * **GitHub:** [github.com/Uixmonster](https://github.com/Uixmonster)
 
 ## 🎯 About Me
@@ -19,6 +20,12 @@ I am a creative and curious person who loves building things, writing music, and
 * **Databases:** MariaDB, SQLite
 
 ## 🚀 Work Experience & Learning Projects
+
+### Django Application
+**TEB Edukacja** | *2023-2024*
+* Developed a Health Tracker application using Django and SQLite for storing and managing user health data.
+* Used JavaScript to create animated widgets and improve the application's user interface.
+* Implemented user account creation, authentication, and an administration panel for managing application data.
 
 ### Assistant to the Head of Logistics and Order Dispatch
 **Nasha Fishka** | *2014-2015*
@@ -51,7 +58,10 @@ I am a creative and curious person who loves building things, writing music, and
 
 ## 💻 Projects
 
-### ????????????????
+### [Christmas-themed online shop](https://rolling-scopes-school.github.io/uixmonster-JSFEPRESCHOOL2026Q1/christmas-shop/)
+* Responsive Christmas-themed online shop built as part of the RS School Stage-0 program.
+* Implemented a product catalog with category browsing, search, sorting, product details, and a shopping cart.
+* Focused on responsive layout, reusable interface components, and user-friendly interactions across desktop and mobile devices.
 
 
 
@@ -99,8 +109,8 @@ if __name__ == "__main__":
 ### Completed Courses and Certificates
 * **RS School** | *Stage-0 2026*
 * **CS50** — [EDX](https://www.edx.org/) | *2025*
-* **SoloLearn** — HTML Fundamentals | *2024*
-* **SoloLearn** — CSS Fundamentals | *2024*
+* **SoloLearn** — HTML Fundamentals | *2020*
+* **SoloLearn** — CSS Fundamentals | *2020*
 
 ## 🌐 Languages
 * **English:** B1
