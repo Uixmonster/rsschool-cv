@@ -27,39 +27,6 @@ I am a creative and curious person who loves building things, writing music, and
 * Used JavaScript to create animated widgets and improve the application's user interface.
 * Implemented user account creation, authentication, and an administration panel for managing application data.
 
-## 🚀 Work Experience
-
-### Process Operator / Preparation Production
-**B/S/H** | *2025-Present*
-* Work on preparation processes on large industrial machines for the production of refrigerator panels.
-* Prepare and adjust equipment, monitor production flow, and ensure process stability and quality standards.
-* Support efficient operation of manufacturing lines and maintain smooth workflow in a high-volume production environment.
-
-### Senior CNC Machine Setter
-**TP Reflex** | *2019-2025*
-* Set up, adjusted, and maintained CNC machines to ensure stable production processes and high-quality output.
-* Read technical drawings and work instructions, selected tools, and calibrated equipment for precise machining operations.
-* Monitored machine performance, solved technical issues on the floor, and supported efficient workflow in a manufacturing environment.
-* Trained new employees in CNC machine setup, operation, and safe working procedures.
-* Supervised the production process and supported the team in maintaining stable workflow and quality standards.
-
-### Logistics
-**Faurecia** | *2017-2018*
-* Organized and coordinated logistics operations, managed shipment planning.
-* Supported day-to-day operational tasks related to stock control, dispatch coordination, and workflow efficiency.
-
-### Sales Manager
-**Malmo Mobile Parts** | *2015-2017*
-* Managed customer relationships, supported sales processes, and contributed to revenue growth through product consultation and service quality.
-* Coordinated with clients, processed orders, and helped maintain strong operational efficiency in a sales environment.
-
-### Assistant to the Head of Logistics and Order Dispatch
-**Nasha Fishka** | *2014-2015*
-* Organized and coordinated logistics operations, managed shipment planning, and ensured timely order fulfillment.
-* Assisted in monitoring delivery processes, tracking orders, and maintaining communication with customers and suppliers.
-* Supported day-to-day operational tasks related to stock control, dispatch coordination, and workflow efficiency.
-
-
 ## 💻 Projects
 
 ### [Christmas-themed online shop](https://rolling-scopes-school.github.io/uixmonster-JSFEPRESCHOOL2026Q1/christmas-shop/)
