@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+  --main-font: "Orbitron", sans-serif;
+  --second-font: "Space Grotesk", sans-serif;
+}
