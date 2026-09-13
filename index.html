@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +8,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <title>Document</title>
+  <title>Andrew Maxim Full-stack Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="flex justify-around container m-auto">
-    <nav class="menu flex justify-center pt-6">
-      <ul class="menu__list flex gap-5 p-4 rounded-md shadow-md inset-shadow-sm">
-        <li class="menu__list-item font-(family-name:--main-font)"><a class="shadow-md inset-shadow-2xs pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-gray-300" href="#">Who_I'm</a></li>
-        <li class="menu__list-item font-(family-name:--main-font)"><a class="shadow-md inset-shadow-2xs pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-gray-300" href="#">Projects</a></li>
-      <div class="p-1 bg-gray-300 rounded-md"></div>
-      <div class="content-center rounded-md text-center font-black font-(family-name:--main-font) text-1xl drop-shadow-md">UIXMONSTER.DEV</div>
-      <div class="p-1 bg-gray-300 rounded-md"></div>
-        <li class="menu__list-item font-(family-name:--main-font)"><a class="shadow-md inset-shadow-2xs pr-2 pl-2 pt-1 pb-1 rounded-md hover:bg-gray-300" href="#">Languages</a></li>
-        <li class="menu__list-item font-(family-name:--main-font)"><a class="shadow-md inset-shadow-2xs pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-gray-300" href="#">Contact</a></li>
+  <header class="container mx-auto px-4">
+    <nav class="flex justify-center py-6" aria-label="Main navigation">
+      <ul class="flex w-full max-w-4xl flex-col items-center gap-3 rounded-md p-3 shadow-md inset-shadow-sm sm:flex-row sm:flex-wrap sm:justify-center sm:gap-5 sm:p-4">
+        <li class="font-(family-name:--main-font)"><a class="inline-block rounded-md px-4 py-1 shadow-md inset-shadow-2xs transition hover:bg-gray-300" href="#whoim">Who_I'm</a></li>
+        <li class="font-(family-name:--main-font)"><a class="inline-block rounded-md px-4 py-1 shadow-md inset-shadow-2xs transition hover:bg-gray-300" href="#projects">Projects</a></li>
+        <li class="rounded-md px-2 py-1 text-center font-black font-(family-name:--main-font) text-sm drop-shadow-md sm:border-x sm:border-gray-300 sm:px-4">UIXMONSTER.DEV</li>
+        <li class="font-(family-name:--main-font)"><a class="inline-block rounded-md px-3 py-1 shadow-md inset-shadow-2xs transition hover:bg-gray-300" href="#languages">Languages</a></li>
+        <li class="font-(family-name:--main-font)"><a class="inline-block rounded-md px-4 py-1 shadow-md inset-shadow-2xs transition hover:bg-gray-300" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -33,8 +31,8 @@
       <img class="" src="avatar-2.png" alt="avatar">
     </section>
   </main>
-    <section class="about container mx-auto flex-wrap m-auto mt-48 pl-2 pr-2 " id="whoim">
-      <article class="about__container tracking-wide w-3xl">
+    <section class="about container mx-auto mt-48 w-full px-4 sm:px-6" id="whoim">
+      <article class="about__container w-full max-w-3xl tracking-wide">
         <h2 class="font-(family-name:--main-font) font-medium text-2xl dark:text-sky-500">Who I'm</h2>
         <p class="text__content font-(family-name:--second-font) pt-2">
           I am a creative and curious person who loves building things, writing music, and developing software. I enjoy solving problems, learning new technologies, and taking on tasks that may seem difficult at first glance. I am always ready to try, adapt, and find a way to make things work. In my free time, I run a YouTube channel where I share reels about web design and creative digital work. I am looking for opportunities where I can apply my skills, keep growing, and contribute to meaningful projects.
