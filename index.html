@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
@@ -10,22 +14,278 @@
 <body>
   <header class="flex justify-around container m-auto">
     <nav class="menu flex justify-center pt-6">
-      <ul class="menu__list flex gap-5 p-4 rounded-md shadow-md">
-        <li class="menu__list-item "><a class="border pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-amber-300" href="#">Who_I'm</a></li>
-      <div class="border p-1 bg-blue-400 rounded-md"></div>
-        <li class="menu__list-item"><a class="border pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-blue-400" href="#">Projects</a></li>
-      <div class="border p-1 bg-green-400 rounded-md"></div>
-      <div class="content-center rounded-md text-center font-bold font-mono text-1xl drop-shadow-md">UIXMONSTER.DEV</div>
-      <div class="border p-1 bg-green-400 rounded-md"></div>
-        <li class="menu__list-item"><a class="border pr-2 pl-2 pt-1 pb-1 rounded-md hover:bg-emerald-400" href="#">Languages</a></li>
-      <div class="border p-1 bg-blue-400 rounded-md"></div>
-        <li class="menu__list-item"><a class="border pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-indigo-400" href="#">Contact</a></li>
+      <ul class="menu__list flex gap-5 p-4 rounded-md shadow-md inset-shadow-sm">
+        <li class="menu__list-item font-(family-name:--main-font)"><a class="shadow-md inset-shadow-2xs pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-gray-300" href="#">Who_I'm</a></li>
+        <li class="menu__list-item font-(family-name:--main-font)"><a class="shadow-md inset-shadow-2xs pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-gray-300" href="#">Projects</a></li>
+      <div class="p-1 bg-gray-300 rounded-md"></div>
+      <div class="content-center rounded-md text-center font-black font-(family-name:--main-font) text-1xl drop-shadow-md">UIXMONSTER.DEV</div>
+      <div class="p-1 bg-gray-300 rounded-md"></div>
+        <li class="menu__list-item font-(family-name:--main-font)"><a class="shadow-md inset-shadow-2xs pr-2 pl-2 pt-1 pb-1 rounded-md hover:bg-gray-300" href="#">Languages</a></li>
+        <li class="menu__list-item font-(family-name:--main-font)"><a class="shadow-md inset-shadow-2xs pr-4 pl-4 pt-1 pb-1 rounded-md hover:bg-gray-300" href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <main class="container m-auto">
-    <h1 class="antialiased text-5xl font-bold font-mono">Andrew Maxim</h1>
-    <p class="antialiased text-xl font-bold font-mono">Full-stack Developer</p>
+  <main class="container flex justify-center m-auto">
+    <section class="hero content__container pt-20 text-center">
+      <div class="intro-bage"><span class="text-white inline-block shadow-md rounded-2xl bg-gray-500 py-2 px-5">🖐 Hello I'm</span></div>
+      <h1 class="antialiased mt-6 text-5xl font-bold font-(family-name:--main-font)">Andrew Maxim</h1>
+      <p class="pt-4 antialiased text-xl font-medium font-(family-name:--main-font) text-shadow-cyan-500">Full-stack <span class="dark:text-sky-500">Developer</span></p>
+      <img class="" src="avatar-2.png" alt="avatar">
+    </section>
   </main>
+    <section class="about container mx-auto flex-wrap m-auto mt-48 pl-2 pr-2 " id="whoim">
+      <article class="about__container tracking-wide w-3xl">
+        <h2 class="font-(family-name:--main-font) font-medium text-2xl dark:text-sky-500">Who I'm</h2>
+        <p class="text__content font-(family-name:--second-font) pt-2">
+          I am a creative and curious person who loves building things, writing music, and developing software. I enjoy solving problems, learning new technologies, and taking on tasks that may seem difficult at first glance. I am always ready to try, adapt, and find a way to make things work. In my free time, I run a YouTube channel where I share reels about web design and creative digital work. I am looking for opportunities where I can apply my skills, keep growing, and contribute to meaningful projects.
+        </p>
+      </article>
+    </section>
+    <section class="container mx-auto flex justify-end px-4 py-48" id="skills">
+      <div class="w-full max-w-2xl">
+        <p class="mb-2 font-(family-name:--main-font) text-sm uppercase tracking-[0.3em] text-green-500">
+          Expertise
+        </p>
+        <h2 class="mb-4 font-(family-name:--main-font) text-2xl font-bold">
+          Technical skills
+        </h2>
+
+        <div class="flex flex-wrap gap-x-6 gap-y-4 font-(family-name:--second-font) text-lg">
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-javascript-plain colored" aria-hidden="true"></i>JavaScript</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-typescript-plain colored" aria-hidden="true"></i>TypeScript</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-python-plain colored" aria-hidden="true"></i>Python</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-mysql-plain colored" aria-hidden="true"></i>SQL</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-html5-plain colored" aria-hidden="true"></i>HTML</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-css3-plain colored" aria-hidden="true"></i>CSS</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-django-plain colored" aria-hidden="true"></i>Django</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-flask-original" aria-hidden="true"></i>Flask</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-git-plain colored" aria-hidden="true"></i>Git</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-github-original" aria-hidden="true"></i>GitHub</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-vscode-plain colored" aria-hidden="true"></i>VS Code</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-pycharm-plain colored" aria-hidden="true"></i>PyCharm</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-trello-plain colored" aria-hidden="true"></i>Kanban</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-mariadb-plain colored" aria-hidden="true"></i>MariaDB</span>
+          <span class="inline-flex items-center gap-2"><i class="text-xl devicon-sqlite-plain colored" aria-hidden="true"></i>SQLite</span>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto flex justify-start px-4" id="projects">
+      <div class="w-full max-w-2xl">
+        <p class="mb-2 font-(family-name:--main-font) text-sm uppercase tracking-[0.3em] text-green-500">
+          Selected work
+        </p>
+        <h2 class="mb-10 font-(family-name:--main-font) text-2xl font-bold">
+          Learning projects
+        </h2>
+
+        <div class="space-y-10 font-(family-name:--second-font)">
+          <article class="border-b border-gray-200 pb-8">
+            <h3 class="mb-2 font-(family-name:--main-font) text-xl font-semibold">
+              Django Application
+            </h3>
+            <p class="mb-4 text-sm text-gray-500">
+              TEB Edukacja <span class="px-2">|</span> 2023-2024
+            </p>
+            <ul class="ml-5 list-disc space-y-2 text-base leading-7">
+              <li>Developed a Health Tracker application using Django and SQLite for storing and managing user health data.</li>
+              <li>Used JavaScript to create animated widgets and improve the application's user interface.</li>
+              <li>Implemented user account creation, authentication, and an administration panel for managing application data.</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3 class="mb-2 font-(family-name:--main-font) text-xl font-semibold">
+              <a class="underline decoration-green-500 decoration-2 underline-offset-4 transition hover:text-green-600" href="https://rolling-scopes-school.github.io/uixmonster-JSFEPRESCHOOL2026Q1/christmas-shop/" target="_blank" rel="noopener noreferrer">
+                Christmas-themed online shop
+              </a>
+            </h3>
+            <p class="mb-4 text-sm text-gray-500">
+              RS School <span class="px-2">|</span> Stage-0 2026
+            </p>
+            <ul class="ml-5 list-disc space-y-2 text-base leading-7">
+              <li>Responsive Christmas-themed online shop built as part of the RS School Stage-0 program.</li>
+              <li>Implemented a product catalog with category browsing, search, sorting, product details, and a shopping cart.</li>
+              <li>Focused on responsive layout, reusable interface components, and user-friendly interactions across desktop and mobile devices.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto flex justify-center px-4 py-48" id="code-examples">
+      <div class="w-full ">
+        <div class="mb-10 text-center">
+          <p class="mb-2 font-(family-name:--main-font) text-sm uppercase tracking-[0.3em] text-green-500">
+            Code examples
+          </p>
+          <h2 class="font-(family-name:--main-font) text-2xl font-bold">
+            Selected snippets
+          </h2>
+        </div>
+        <div class="grid gap-6 lg:grid-cols-2">
+          <article class="overflow-hidden rounded-lg bg-[#1e1e1e] shadow-xl">
+            <div class="flex items-center gap-2 border-b border-[#333333] bg-[#252526] px-4 py-3">
+              <span class="h-3 w-3 rounded-full bg-[#f14c4c]"></span>
+              <span class="h-3 w-3 rounded-full bg-[#cca700]"></span>
+              <span class="h-3 w-3 rounded-full bg-[#23d18b]"></span>
+              <span class="ml-3 font-mono text-xs text-[#9d9d9d]">capitalize.js</span>
+            </div>
+            <pre class="overflow-x-auto p-5 font-mono text-sm leading-7 text-[#d4d4d4]"><code><span class="text-[#569cd6]">function</span> <span class="text-[#dcdcaa]">capitalizeWord</span>(<span class="text-[#9cdcfe]">word</span>) {
+  <span class="text-[#569cd6]">let</span> <span class="text-[#9cdcfe]">firstLetter</span> = <span class="text-[#9cdcfe]">word</span>[<span class="text-[#b5cea8]">0</span>].<span class="text-[#dcdcaa]">split</span>(<span class="text-[#ce9178]">''</span>);
+  <span class="text-[#569cd6]">let</span> <span class="text-[#9cdcfe]">capitalizedLetter</span> = <span class="text-[#9cdcfe]">firstLetter</span>.<span class="text-[#dcdcaa]">at</span>(<span class="text-[#b5cea8]">0</span>).<span class="text-[#dcdcaa]">toUpperCase</span>();
+  <span class="text-[#c586c0]">return</span> <span class="text-[#9cdcfe]">capitalizedLetter</span> + <span class="text-[#9cdcfe]">word</span>.<span class="text-[#dcdcaa]">slice</span>(<span class="text-[#b5cea8]">1</span>);
+}</code></pre>
+          </article>
+
+          <article class="overflow-hidden rounded-lg bg-[#1e1e1e] shadow-xl">
+            <div class="flex items-center gap-2 border-b border-[#333333] bg-[#252526] px-4 py-3">
+              <span class="h-3 w-3 rounded-full bg-[#f14c4c]"></span>
+              <span class="h-3 w-3 rounded-full bg-[#cca700]"></span>
+              <span class="h-3 w-3 rounded-full bg-[#23d18b]"></span>
+              <span class="ml-3 font-mono text-xs text-[#9d9d9d]">person.py</span>
+            </div>
+            <pre class="overflow-x-auto p-5 font-mono text-sm leading-7 text-[#d4d4d4]"><code><span class="text-[#c586c0]">class</span> <span class="text-[#4ec9b0]">Person</span>:
+    <span class="text-[#c586c0]">def</span> <span class="text-[#dcdcaa]">__init__</span>(<span class="text-[#9cdcfe]">self</span>, <span class="text-[#9cdcfe]">name</span>, <span class="text-[#9cdcfe]">surname</span>, <span class="text-[#9cdcfe]">age</span>, <span class="text-[#9cdcfe]">country</span>):
+        <span class="text-[#9cdcfe]">self</span>.<span class="text-[#9cdcfe]">name</span> = <span class="text-[#9cdcfe]">name</span>
+        <span class="text-[#9cdcfe]">self</span>.<span class="text-[#9cdcfe]">surname</span> = <span class="text-[#9cdcfe]">surname</span>
+        <span class="text-[#9cdcfe]">self</span>.<span class="text-[#9cdcfe]">age</span> = <span class="text-[#9cdcfe]">age</span>
+        <span class="text-[#9cdcfe]">self</span>.<span class="text-[#9cdcfe]">country</span> = <span class="text-[#9cdcfe]">country</span>
+
+    <span class="text-[#c586c0]">def</span> <span class="text-[#dcdcaa]">is_adult</span>(<span class="text-[#9cdcfe]">self</span>):
+        <span class="text-[#c586c0]">return</span> <span class="text-[#9cdcfe]">self</span>.<span class="text-[#9cdcfe]">age</span> &gt;= <span class="text-[#b5cea8]">18</span></code></pre>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="relative isolate overflow-hidden bg-[radial-gradient(circle_at_12%_20%,rgba(251,113,133,0.34),transparent_28%),radial-gradient(circle_at_88%_18%,rgba(56,189,248,0.3),transparent_26%),radial-gradient(circle_at_78%_82%,rgba(192,132,252,0.32),transparent_30%),radial-gradient(circle_at_20%_88%,rgba(250,204,21,0.22),transparent_28%),linear-gradient(135deg,#ffffff,#f8fafc)]" id="education">
+      <div class="container relative mx-auto px-4 py-48">
+        <div class="mx-auto ">
+          <div class="mb-12">
+            <p class="mb-2 font-(family-name:--main-font) text-sm uppercase tracking-[0.3em] text-green-600">
+              Background
+            </p>
+            <h2 class="font-(family-name:--main-font) text-2xl font-bold">
+              Education & certificates
+            </h2>
+          </div>
+
+          <div class="grid gap-12 font-(family-name:--second-font) md:grid-cols-2">
+            <div>
+              <h3 class="mb-6 font-(family-name:--main-font) text-lg font-semibold">
+                Education
+              </h3>
+              <div class="space-y-6 border-l-2 border-green-500/50 pl-6">
+                <article>
+                  <h4 class="font-semibold">TEB Edukacja</h4>
+                  <p class="mt-1 text-sm text-gray-600">Python Programming with Cisco Networking <span class="px-1">|</span> 2023-2024</p>
+                </article>
+                <article>
+                  <h4 class="font-semibold">KhNAU</h4>
+                  <p class="mt-1 text-sm text-gray-600">Agricultural Engineering / Engineering-oriented education <span class="px-1">|</span> 2012-2014</p>
+                </article>
+                <article>
+                  <h4 class="font-semibold">Kharkiv Polytechnic Institute</h4>
+                  <p class="mt-1 text-sm text-gray-600">Computer Science and Computer Architecture <span class="px-1">|</span> 2008-2010</p>
+                </article>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="mb-6 font-(family-name:--main-font) text-lg font-semibold">
+                Courses & certificates
+              </h3>
+              <ul class="space-y-4 font-(family-name:--second-font) text-base">
+                <li class="flex items-baseline justify-between gap-4 border-b border-gray-300/70 pb-3">
+                  <span><strong>RS School</strong> <span class="text-gray-600">Stage-0</span></span>
+                  <span class="shrink-0 text-sm text-gray-500">2026</span>
+                </li>
+                <li class="flex items-baseline justify-between gap-4 border-b border-gray-300/70 pb-3">
+                  <span><strong>CS50</strong> <span class="text-gray-600">EDX</span></span>
+                  <span class="shrink-0 text-sm text-gray-500">2025</span>
+                </li>
+                <li class="flex items-baseline justify-between gap-4 border-b border-gray-300/70 pb-3">
+                  <span><strong>SoloLearn</strong> <span class="text-gray-600">HTML Fundamentals</span></span>
+                  <span class="shrink-0 text-sm text-gray-500">2020</span>
+                </li>
+                <li class="flex items-baseline justify-between gap-4 border-b border-gray-300/70 pb-3">
+                  <span><strong>SoloLearn</strong> <span class="text-gray-600">CSS Fundamentals</span></span>
+                  <span class="shrink-0 text-sm text-gray-500">2020</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto px-4 py-48" id="languages">
+      <div class="mx-auto max-w-4xl">
+        <div class="mb-10">
+          <p class="mb-2 font-(family-name:--main-font) text-sm uppercase tracking-[0.3em] text-green-500">
+            Communication
+          </p>
+          <h2 class="font-(family-name:--main-font) text-2xl font-bold">
+            Languages
+          </h2>
+        </div>
+
+        <div class="grid gap-10 font-(family-name:--second-font) md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
+          <div class="grid grid-cols-2 gap-x-8 gap-y-4 text-lg sm:grid-cols-4 md:grid-cols-2">
+            <div class="border-b border-gray-200 pb-3">
+              <p class="font-semibold">English</p>
+              <p class="text-sm text-gray-500">B1</p>
+            </div>
+            <div class="border-b border-gray-200 pb-3">
+              <p class="font-semibold">Polish</p>
+              <p class="text-sm text-gray-500">B2</p>
+            </div>
+            <div class="border-b border-gray-200 pb-3">
+              <p class="font-semibold">Ukrainian</p>
+              <p class="text-sm text-gray-500">C2</p>
+            </div>
+            <div class="border-b border-gray-200 pb-3">
+              <p class="font-semibold">Russian</p>
+              <p class="text-sm text-gray-500">C2</p>
+            </div>
+          </div>
+
+          <div class="border-l-2 border-green-500/50 pl-6">
+            <h3 class="mb-3 font-(family-name:--main-font) text-lg font-semibold">
+              Language practice
+            </h3>
+            <p class="text-base leading-7 text-gray-600">
+              I read technical documentation, write code comments, and communicate by email and chat. I also have experience participating in English- and Polish-language webinars and collaborating with teammates in a work environment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-gray-500 text-white" id="contact">
+      <div class="container mx-auto flex flex-col gap-8 px-4 py-16">
+        <div class="flex flex-col items-center gap-6 text-center md:flex-row md:items-center md:justify-between md:text-left">
+          <div>
+            <p class="mb-2 font-(family-name:--main-font) text-sm uppercase tracking-[0.3em] text-gray-200">
+              Get in touch
+            </p>
+            <h2 class="font-(family-name:--main-font) text-2xl font-bold">
+              Let’s build something meaningful.
+            </h2>
+            <p class="mt-3 font-(family-name:--second-font) text-gray-200">
+              Email: andriimaksim@gmail.com
+            </p>
+          </div>
+
+          <a class="inline-flex items-center gap-3 rounded-md bg-white px-6 py-3 font-(family-name:--main-font) text-sm font-bold text-gray-700 shadow-md transition hover:bg-gray-200" href="https://github.com/Uixmonster" target="_blank" rel="noopener noreferrer">
+            <i class="devicon-github-original text-xl" aria-hidden="true"></i>
+            Visit GitHub
+          </a>
+        </div>
+
+        <div class="flex items-center justify-center gap-4 border-t border-gray-400/50 pt-6">
+          <span class="font-(family-name:--second-font) text-sm text-gray-200">© 2026 Andrew Maxim</span>
+          <a class="transition-opacity hover:opacity-80" href="https://rs.school/courses/javascript/" target="_blank" rel="noopener noreferrer" aria-label="RS School JavaScript course">
+            <img class="h-8 w-auto" src="rs-school-logo.svg" alt="RS School JavaScript course">
+          </a>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
